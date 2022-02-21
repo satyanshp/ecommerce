@@ -1,0 +1,10 @@
+
+@media screen and (max-width:600px){
+    .butt-cont button{
+        width: auto !important;
+        height: auto !important;
+        font-weight: 700;
+        font-size: 48% !important;
+        padding: 10.5px 8px;
+    }
+}

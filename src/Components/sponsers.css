@@ -1,0 +1,39 @@
+.p {
+  display: flex;
+  justify-content: center;
+    margin: 48px;
+    width: 100%;
+    /* display: flex; */
+  }
+  .p .q {
+    display: flex;
+    /* margin: 0px 100px; */
+    margin: 0px 15%;
+    justify-content: center;
+  }
+  .p .q img {
+    margin: 0px 35px;
+    /* width: 110px; */
+    width: 10%;
+    filter: grayscale(1);
+    transition-property: grayscale;
+    transition: 0.65s;
+  }
+  .p .q img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+  }
+  @media screen and (max-width:840px){
+    .p{
+      margin: 3%;
+      width: 94.5%;
+    }
+    .p .q img{
+      width: 12%;
+      margin: 0px 3%;
+    }
+    .p .q{
+      margin: 0px 1%;
+      width: 90%;
+    }
+  }

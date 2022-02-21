@@ -1,0 +1,62 @@
+.mainhmenu{
+    position: fixed;
+    z-index: 1099 !important;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(236, 234, 234);
+}
+.hclose{
+    padding:20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.hmenulinks{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hmenulinks li{
+    width: 80%;
+    height: 60px;
+    list-style: none;
+    
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+.hmenulinks li:hover{
+    background-color: gray;
+}
+.hmenulinks .login{
+    margin: 0 !important;
+}
+.hmenulinks .login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px !important;
+    width: 125px ;
+    padding-top: 1.5px;
+    text-decoration: none;
+    background-color: rgb(8, 119, 82) ;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 0px 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hmenulinks .login:hover{
+    transform: scale(1.10);
+    transition: 300ms;
+}
