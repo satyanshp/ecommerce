@@ -76,11 +76,28 @@
 }
 @media screen and (max-width:530px){
     .footer-links{
-        flex-direction: column;
+        /* flex-direction: column; */
+        padding: 30px;
+        gap: 20px;
 
     }
     .mail div{
         border: none !important;
         padding: 0;
+    }
+    .footer-links h2{
+        font-size: 10px;
+    }
+    .footer-links li{
+        font-size: 8px;
+    }
+    .footer-links p{
+        font-size: 8px;
+    }
+    .copyrights .logo{
+        font-size: 13.5px;
+    }
+    .copyrights{
+        font-size: 10px;
     }
 }
